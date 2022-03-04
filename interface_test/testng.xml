@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="规则平台">
+    <test name="test_demo">
+        <classes>
+            <class name="com.autotest.cases.DemoCase">
+                <parameter name="setStartSheetIndex" value="0"></parameter>
+                <parameter name="setSheetNum" value="1"></parameter>
+                <parameter name="MappingClass" value="com.pojo.CaseInfo"></parameter>
+            </class>
+        </classes>
+    </test>
+</suite>
